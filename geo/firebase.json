@@ -1,0 +1,16 @@
+{
+  "functions": [
+    {
+      "source": "contact_form",
+      "codebase": "contact_form",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
