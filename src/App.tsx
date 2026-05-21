@@ -180,15 +180,14 @@ const Hero = () => {
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-brand-red text-xs font-bold uppercase tracking-[0.2em] mb-8">
             <Zap size={14} />
-            Award Winning UK Agency
+            GEOMAGNETICS
           </div>
           <h1 className="text-6xl md:text-8xl font-black leading-[0.9] mb-8 tracking-tighter">
-            WE BUILD <br />
+            GEOMAGNETICS <br />
             <span className="text-brand-red">DIGITAL</span> EMPIRES.
           </h1>
           <p className="text-xl md:text-2xl text-white/50 mb-12 max-w-3xl mx-auto font-medium leading-relaxed">
-            LK Web Designers Limited delivers high-end digital solutions for brands that demand excellence. From London to the world.
-          </p>
+           GEOMAGNETICS</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             <button className="w-full sm:w-auto bg-brand-red hover:bg-red-700 text-white px-10 py-5 rounded-full font-black text-lg flex items-center justify-center gap-3 transition-all hover:translate-y-[-4px] shadow-2xl shadow-brand-red/40">
               GET STARTED <ArrowUpRight size={22} />
