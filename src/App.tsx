@@ -189,11 +189,9 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-white/50 mb-12 max-w-3xl mx-auto font-medium leading-relaxed">
            GEOMAGNETICS</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-            <button className="w-full sm:w-auto bg-brand-red hover:bg-red-700 text-white px-10 py-5 rounded-full font-black text-lg flex items-center justify-center gap-3 transition-all hover:translate-y-[-4px] shadow-2xl shadow-brand-red/40">
-              GET STARTED <ArrowUpRight size={22} />
-            </button>
+           
             <button className="w-full sm:w-auto bg-white/5 hover:bg-white/10 border border-white/20 text-white px-10 py-5 rounded-full font-black text-lg transition-all">
-              OUR PORTFOLIO
+              Join The List
             </button>
           </div>
         </motion.div>
