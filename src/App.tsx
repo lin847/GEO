@@ -190,9 +190,16 @@ const Hero = () => {
            GEOMAGNETICS</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
            
-            <button className="w-full sm:w-auto bg-white/5 hover:bg-white/10 border border-white/20 text-white px-10 py-5 rounded-full font-black text-lg transition-all">
-              Join The List
-            </button>
+            <a 
+  href="https://your-external-link-here.com" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="w-full sm:w-auto"
+>
+  <button className="w-full sm:w-auto bg-white/5 hover:bg-white/10 border border-white/20 text-white px-10 py-5 rounded-full font-black text-lg transition-all">
+    Join The List
+  </button>
+</a>
           </div>
         </motion.div>
       </div>
