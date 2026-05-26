@@ -213,33 +213,33 @@ const Services = () => {
   const services = [
     {
       icon: <Layout className="text-brand-red" size={32} />,
-      title: "Web Design & Dev",
-      desc: "Bespoke, high-performance websites tailored for luxury brands and tech enterprises."
+      title: "tour",
+      desc: "may 2027"
     },
     {
       icon: <Cpu className="text-brand-red" size={32} />,
-      title: "IoT Integration",
-      desc: "Connecting physical devices with digital ecosystems for seamless smart experiences."
+      title: "tour",
+      desc: "june 2027."
     },
     {
       icon: <Smartphone className="text-brand-red" size={32} />,
-      title: "Mobile Solutions",
-      desc: "Native and cross-platform mobile applications built with precision and speed."
+      title: "tour",
+      desc: "july2027"
     },
     {
       icon: <Shield className="text-brand-red" size={32} />,
-      title: "Cyber Security",
-      desc: "Enterprise-grade security audits and implementations to protect your digital assets."
+      title: "tour",
+      desc: "september 2027."
     },
     {
       icon: <Globe className="text-brand-red" size={32} />,
-      title: "Digital Strategy",
-      desc: "Data-driven roadmaps to navigate the complex digital landscape and scale effectively."
+      title: "tour",
+      desc: "october 2027."
     },
     {
       icon: <Code className="text-brand-red" size={32} />,
-      title: "Custom Software",
-      desc: "Scalable backend systems and specialized software tailored to your business logic."
+      title: "tour",
+      desc: "november 2027."
     }
   ];
 
