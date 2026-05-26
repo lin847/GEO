@@ -102,7 +102,7 @@ const Navbar = () => {
              {/* Fallback to initials if image doesn't load */}
              <img 
                src={LOGO_PATH} 
-              //  alt="LK" 
+              //  alt="geomagnetic" 
                className="w-full h-full object-cover"
                onError={(e) => {
                  (e.target as HTMLImageElement).style.display = 'none';
