@@ -123,7 +123,7 @@ const Navbar = () => {
             </a>
           ))}
           <button className="bg-brand-red hover:bg-red-700 text-white px-7 py-2.5 rounded-full text-sm font-bold transition-all hover:scale-105 active:scale-95 shadow-lg shadow-brand-red/30">
-            Start a Project
+            apple
           </button>
         </div>
 
