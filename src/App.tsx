@@ -184,7 +184,7 @@ const Hero = () => {
           </div>
           <h1 className="text-6xl md:text-8xl font-black leading-[0.9] mb-8 tracking-tighter">
             GEOMAGNETICS <br />
-            <span className="text-brand-red">DIGITAL</span> EMPIRES.
+            
           </h1>
           <p className="text-xl md:text-2xl text-white/50 mb-12 max-w-3xl mx-auto font-medium leading-relaxed">
            GEOMAGNETICS</p>
