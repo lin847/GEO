@@ -152,7 +152,7 @@ const Navbar = () => {
                 </a>
               ))}
               <button className="bg-brand-red text-white px-6 py-4 rounded-xl text-center font-bold text-lg">
-                Start a Project
+                apple
               </button>
             </div>
           </motion.div>
