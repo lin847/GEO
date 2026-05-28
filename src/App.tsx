@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
+import {link}from react-dom-router
 import { 
   Cpu, 
   Globe, 
@@ -26,6 +27,10 @@ import {
 const LOGO_PATH = "/src/assets/logo.png";
 
 // Toast Notification Component
+
+function navigation(){
+  return<link ref=></>
+}
 const ToastNotification = ({ message, type, onClose }: { message: string; type: 'success' | 'error'; onClose: () => void }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
