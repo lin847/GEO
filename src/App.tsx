@@ -313,12 +313,11 @@ const Portfolio = () => {
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Selected Works</h2>
-            <p className="text-white/50 max-w-md">
-              A glimpse into the digital experiences we've crafted for our global partners.
+            <p className="text-white/50 >
             </p>
           </div>
           <button className="text-brand-red font-bold flex items-center gap-2 hover:underline">
-            View All Projects <ExternalLink size={18} />
+             <ExternalLink size={18} />
           </button>
         </div>
 
@@ -367,9 +366,9 @@ const ContactSection = ({ onToast }: { onToast: (toast: { message: string; type:
   const [isSubmitting, setIsSubmitting] = useState(false);
   
   const services = [
-    "Website Design", "E-commerce", "IoT Solutions", 
-    "Mobile Apps", "SEO & Marketing", "Branding", 
-    "Cyber Security", "Cloud Hosting"
+    "", "", "", 
+    "", "", "", 
+    "", ""
   ];
 
   const toggleService = (service: string) => {
@@ -451,7 +450,7 @@ const ContactSection = ({ onToast }: { onToast: (toast: { message: string; type:
                 Interested in discussing a <span className="text-brand-red">project</span> with us?
               </h2>
               <p className="text-white/50 text-lg leading-relaxed">
-                If you begin filling in this form but don’t finish, we may still contact you based on the details you’ve entered so far.
+                
               </p>
             </div>
 
