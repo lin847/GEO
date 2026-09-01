@@ -106,7 +106,7 @@ const Navbar = () => {
                className="w-full h-full object-cover"
                onError={(e) => {
                  (e.target as HTMLImageElement).style.display = 'none';
-                 (e.target as HTMLImageElement).parentElement!.innerHTML = '<span class="text-white font-bold text-xl">LK</span>';
+                 (e.target as HTMLImageElement).parentElement!.innerHTML = '<span class="text-white font-bold text-xl">G</span>';
                }}
              />
           </div>
