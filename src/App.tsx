@@ -146,7 +146,7 @@ const Navbar = () => {
             className="absolute top-full left-0 w-full bg-brand-black border-b border-white/10 overflow-hidden md:hidden"
           >
             <div className="flex flex-col p-8 gap-6">
-              {['Services', 'Portfolio', 'About', 'Contact'].map((item) => (
+              {['band news', 'tour dates', 'tickets', 'Contact'].map((item) => (
                 <a 
                   key={item} 
                   href={`#${item.toLowerCase()}`} 
