@@ -254,7 +254,7 @@ const Services = () => {
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Expertise</h2>
           <p className="text-white/50 max-w-2xl mx-auto">
-            We combine technical prowess with creative vision to deliver solutions that are as functional as they are beautiful.
+            find out the latest news of geomagnetics music.
           </p>
         </div>
 
