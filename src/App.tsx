@@ -286,23 +286,23 @@ const Services = () => {
 const Portfolio = () => {
   const projects = [
     {
-      title: "Lumina Tech",
-      category: "IoT Dashboard",
+      title: "London",
+      category: "",
       image: "https://picsum.photos/seed/tech/800/600"
     },
     {
-      title: "Elysian Homes",
-      category: "Luxury Real Estate",
+      title: "paris",
+      category: "",
       image: "https://picsum.photos/seed/luxury/800/600"
     },
     {
-      title: "Nova Crypto",
-      category: "Fintech Platform",
+      title: "berlin",
+      category: ""
       image: "https://picsum.photos/seed/crypto/800/600"
     },
     {
-      title: "Aether Audio",
-      category: "E-commerce",
+      title: "lyon",
+      category: "",
       image: "https://picsum.photos/seed/audio/800/600"
     }
   ];
