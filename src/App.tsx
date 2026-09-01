@@ -579,7 +579,7 @@ const ContactSection = ({ onToast }: { onToast: (toast: { message: string; type:
                     onChange={handleInputChange}
                     rows={5} 
                     className="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 focus:outline-none focus:border-brand-red transition-colors resize-none" 
-                    placeholder="Tell us about your goals, timeline, and budget..."
+                    placeholder=""
                   ></textarea>
                 </div>
 
@@ -616,7 +616,7 @@ const Footer = () => {
                  {/* Fallback to initials if image doesn't load */}
                  <img 
                    src={LOGO_PATH} 
-                   alt="LK Web Designers" 
+                   alt="" 
                    className="w-full h-full object-cover"
                    onError={(e) => {
                      (e.target as HTMLImageElement).style.display = 'none';
@@ -630,7 +630,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-white/40 max-w-sm leading-relaxed mb-8">
-              A premium UK digital agency specializing in high-end web design, IoT solutions, and luxury branding.
+              
             </p>
             <div className="flex gap-4">
               {/* Social Placeholders */}
@@ -643,12 +643,12 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="font-black uppercase tracking-widest text-xs mb-8 text-brand-red">Services</h4>
+            <h4 className="font-black uppercase tracking-widest text-xs mb-8 text-brand-red"></h4>
             <ul className="space-y-4 text-white/50 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Website Design</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">IoT Integration</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Branding</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Cyber Security</a></li>
+              <li><a href="#" className="hover:text-white transition-colors"></a></li>
+              <li><a href="#" className="hover:text-white transition-colors"></a></li>
+              <li><a href="#" className="hover:text-white transition-colors"></a></li>
+              <li><a href="#" className="hover:text-white transition-colors"></a></li>
             </ul>
           </div>
 
@@ -664,7 +664,7 @@ const Footer = () => {
         </div>
         
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-xs font-bold text-white/20 uppercase tracking-[0.2em]">
-          <div>© {new Date().getFullYear()} LK Web Designers Limited.</div>
+          <div>© {new Date().getFullYear()} </div>
           <div className="flex gap-8">
             <a href="#" className="hover:text-white transition-colors">Privacy</a>
             <a href="#" className="hover:text-white transition-colors">Terms</a>
