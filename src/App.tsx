@@ -28,8 +28,12 @@ const LOGO_PATH = "/src/assets/logo.png";
 
 // Toast Notification Component
 
-function navigation(){
-  return<link to=></>
+function Navigation() {
+  return (
+    <Link to="/">
+      Home
+    </Link>
+  );
 }
 const ToastNotification = ({ message, type, onClose }: { message: string; type: 'success' | 'error'; onClose: () => void }) => {
   useEffect(() => {
