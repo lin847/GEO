@@ -297,7 +297,7 @@ const Portfolio = () => {
     },
     {
       title: "berlin",
-      category: ""
+      category: "",
       image: "https://picsum.photos/seed/crypto/800/600"
     },
     {
